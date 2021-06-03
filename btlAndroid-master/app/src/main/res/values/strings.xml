@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BTL Ban Hang</string>
+    <string name="login">Login</string>
+    <string name="loginadmin">LoginAdmin</string>
+    <string name="login_admin">Login admin</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="less_more">less_more</string>
+</resources>

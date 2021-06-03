@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appbanhang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TRUONG NGUYEN MOTOR"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--        <activity android:name=".activity.MainActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+        <activity android:name=".activity.ActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.ActivityAdmin"></activity>
+        <activity android:name=".activity.QLSanPhamActivity"></activity>
+        <activity android:name=".activity.QLSanPhamAdmin"></activity>
+        <activity android:name=".activity.QuanLySanPhamActivity"></activity>
+        <activity android:name=".activity.QLDonHangActivity"></activity>
+        <activity android:name=".activity.QLChiTietDonHangActivity"></activity>
+        <activity android:name=".activity.LienHeActivity"></activity>
+        <activity android:name=".activity.ChiTietActivity" />
+        <activity android:name=".activity.GioHangActivity" />
+        <activity android:name=".activity.KhachHangActivity"></activity>
+        <activity android:name=".activity.XeSoTuDongActivity"></activity>
+        <activity android:name=".activity.XeConTayActivity"></activity>
+        <activity android:name=".activity.XeConTuDongActivity"></activity>
+    </application>
+</manifest>

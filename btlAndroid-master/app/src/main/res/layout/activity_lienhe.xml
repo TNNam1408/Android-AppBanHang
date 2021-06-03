@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/motivi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="#716562"
+        app:titleTextColor="#f9f6f5"
+        app:title="Liên Hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XE MÁY TRƯỜNG NGUYÊN KÍNH CHÀO QUÝ KHÁCH"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="#D5D5D5"
+            android:textColor="#f20"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotline:0396106608"
+            android:textSize="30dp"
+            android:layout_margin="15dp"
+            android:background="#76BD79"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:
+        truongnguyenmotor@gmail.com"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="#E3D450"
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facebook: Trường Nguyên"
+            android:textSize="30dp"
+            android:background="#CA9090"
+            android:layout_margin="15dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

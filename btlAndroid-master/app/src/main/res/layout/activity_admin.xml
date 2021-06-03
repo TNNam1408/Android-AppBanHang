@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbaradmin"
+        android:background="#716562"
+        app:titleTextColor="#f9f6f5"
+        app:title="MY ADMIN"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <Button
+        android:id="@+id/qlsanpham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginBottom="5dp"
+        android:text="Quản lý sản phẩm"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/qldonhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginBottom="5dp"
+        android:text="Quản lý khách hàng"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/qlkhachhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:text="Quản lý đơn hàng"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/logoutadmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:text="log out"
+        android:textColor="#ffffff"
+        android:backgroundTint="#F44336"
+        />
+</LinearLayout>
