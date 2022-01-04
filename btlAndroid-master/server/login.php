@@ -13,7 +13,7 @@
 		if(mysqli_num_rows($result) > 0){
 				echo "Dang nhap thanh cong";
 			}else{
-				echo"That bai";
+				echo"Dang nhap that bai";
 			}
 	}else{
 		echo "Ban hay kiem tra lai du lieu";

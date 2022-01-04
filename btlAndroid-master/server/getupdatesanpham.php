@@ -11,10 +11,11 @@
 		if(mysqli_query($conn, $query)){
 			$idsanpham = $conn->insert_id;
 			echo $idsanpham;
+			echo "Thêm sản phẩm thành công";
 		}else{
-			echo"That bai";
+			echo"Thất bại";
 		}
 	}else{
-		echo "Ban hay kiem tra lai du lieu xx";
+		echo "Hãy kiểm tra lại dữ liệu";
 	}
 ?>

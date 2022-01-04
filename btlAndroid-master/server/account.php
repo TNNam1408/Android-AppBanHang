@@ -10,16 +10,16 @@
 		$checkuser = "SELECT *FROM account WHERE USER='$user'";
 		$result = mysqli_query($conn,$checkuser);
 		if(mysqli_num_rows($result) > 0){
-			echo "User Da Ton Tai !!";
+			echo "User đã tồn tại vui lòng kiểm tra lại";
 	}else{
 		$query = "INSERT INTO account(id,user,password) VALUES(null,'$user','$password')";
 			if(mysqli_query($conn, $query)){
-				echo "Dang ky thanh cong";
+				echo "Đăng kí thành công";
 			}else{
-				echo"That bai";
+				echo"Đăng kí thất bại";
 			}
 		}
 	}else{
-			echo "Ban hay kiem tra lai du lieu";
+			echo "Bạn hãy kiểm tra lại trường dữ liệu";
 	}
 ?>

@@ -1,16 +1,25 @@
+
 <?php
 	include "connection.php";
 	$id = $_POST['id'];
 	
 	if(strlen($id) > 0 ){
-		$query = "DELETE FROM sanpham WHERE id = '$id' ";
+		$checkuser = "SELECT *FROM sanpham WHERE ID='$id'";
+		$result = mysqli_query($conn,$checkuser);
 
-		if(mysqli_query($conn, $query)){
-			echo "1";
+		if(mysqli_num_rows($result) < 1){
+			echo "K có sản phẩm này";
 		}else{
-			echo"That bai";
+			$query = "DELETE FROM sanpham WHERE id = '$id' ";
+			if(mysqli_query($conn, $query)){
+				
+				echo "Xóa thành công ";
+				echo $id;
+			}else{
+				echo"Thất bại";
+			}
 		}
 	}else{
-		echo "Ban hay kiem tra lai du lieu"+'id';
+		echo "Hãy kiểm tra lại id";
 	}
 ?>
